@@ -4,7 +4,7 @@ version '2.0.0'
 buildscript {
     repositories {
         google()
-        jcenter()
+        mavencentral()
     }
 
     dependencies {
@@ -15,14 +15,14 @@ buildscript {
 rootProject.allprojects {
     repositories {
         google()
-        jcenter()
+        mavencentral()
     }
 }
 
 apply plugin: 'com.android.library'
 
 android {
-    compileSdkVersion 30
+    compileSdkVersion 34
 
     defaultConfig {
         minSdkVersion 16
